@@ -34,7 +34,7 @@ from .partitioner import PjitPartitioner
 from .train_state import InferenceState
 
 
-jax.config.update("jax_array", True)
+#jax.config.update("jax_array", True)
 
 logger = logging.get_logger(__name__)
 
